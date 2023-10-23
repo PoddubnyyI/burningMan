@@ -1,0 +1,182 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+a {
+	text-decoration: none;
+}
+
+section {
+	padding-top: 113px	
+}
+
+p {
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	max-width: 1170px;
+	width: 100%;
+	/*позиционирование по центру*/
+	margin: 0 auto; 
+	padding: 15px;
+}
+
+.header {
+	background: url('../img/header-bg.jpg') no-repeat center top / cover;
+	padding-top: 57px;
+	padding-bottom: 322px;
+}
+
+header a {
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 40px;
+    letter-spacing: 0.1em; 
+}
+
+.tel {
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1em; 
+}
+
+.nav {
+    display: flex;
+	flex-wrap: wrap;
+    /* border: 5px solid yellow; */
+    align-items: center;
+    margin-top: 57px;
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.offer {
+	text-transform: uppercase;
+	margin-top: 216px;
+}
+
+.offer h1 {
+	color: #fff;
+	font-size: 100px;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	letter-spacing: 0.02em;
+}
+
+.offer p {
+	font-size: 30px;
+	letter-spacing: 0.1em;
+	color: #fff;
+}
+
+.btn {
+	display: block;
+	font-size: 17px;
+	align-items: center;
+	letter-spacing: 0.01em;
+	padding: 17px 47px;
+	border: 1px solid#fff;
+	width: 216px;
+	transition: all 1s ease;
+}
+
+.description p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 1.62em;
+}
+
+.desc-left, .desc-right {
+	width: 567px;
+}
+
+.desc-left {
+	margin-bottom: 20px;
+}
+.description {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.gallery {
+	margin-top: 67px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.gallery img {
+	max-width: 570px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.footer-text {
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 114px 0;
+}
+
+.footer-text p {
+	margin-right: 67px;
+}
+
+.gallery img:hover {
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	transform: scale(1.1);
+}
+
+.btn:hover {
+	background: #fff;
+    color: #000;
+
+}
